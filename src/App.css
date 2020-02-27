@@ -255,8 +255,14 @@ position: relative;
 }
 .contacts {
     padding: 90px 48px 20px 62px;
+    text-align: left;
+        font-size: 18px;
+        line-height: 41px !important;
+ 
 }
-
+.contacts a{
+    color:#333;
+}
 
 
 

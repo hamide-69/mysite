@@ -11,7 +11,7 @@ function Nav() {
       <nav className="col-md-3" >
        <div className="left-menu">   
 
-          <img className="personal-img" src="http://thetoptier.net/wp-content/uploads/2015/12/Personal-Brand.jpg"   height='50px' width='50px'  ></img>
+          <img className="personal-img" src="https://www.itl.cat/pngfile/big/43-430987_cute-profile-images-pic-for-whatsapp-for-boys.jpg"   height='50px' width='50px'  ></img>
           <h1 className="Name">Hamideh Mohammadnian</h1>
           <h2 className="job"> React Front-End Developer</h2>
 

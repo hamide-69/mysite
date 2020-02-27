@@ -34,11 +34,14 @@ class Contact extends Component {
 async handleSubmit(e) {
 
   if (!this.canBeSubmitted()) {
+    
     e.preventDefault();
     return;
   }
   const { email, name,message } = this.state;
   alert(`Dear ${name} Thanks for your message` );
+  
+ 
 
 
   const form = await axios.post('/api/Form',{
@@ -65,8 +68,11 @@ async handleSubmit(e) {
 <h1 className="col-md-12 contact-title1">get in touch </h1>
 <h1 className="col-md-12 contact-title2">Contact Us </h1>
 
-<div className="col-md-4" >
-dsd ffs
+<div className="col-md-4">
+<p><b><i class="fas fa-envelope-open" /></b> mohammadi.sut@gmail.com</p>
+<p><b><i class="fas fa-mobile-alt" /></b> 09198281622</p>
+<a href="@hamidehmd"><p><b><i class="fab fa-instagram-square"/></b> @hamidehmd</p></a>
+
 
 </div>
 
